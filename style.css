@@ -8,7 +8,7 @@ header img {
 
 
 body {
-    background: url(../images/white.jpeg) rgba(0, 0, 0, 0.2);
+    background: url(../images/black.jpeg) rgba(192, 191, 191, 0.979);
     /* background-position: center; */
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
@@ -22,7 +22,7 @@ body {
 .header h3 {
     padding: 15px;
     font-weight: 700;
-    font-size: xx-large;
+    font-size:xx-large;
 }
 
 .header img {
