@@ -31,7 +31,7 @@ Correct Akan name to match day of the week. Example Ama - Female born on a Satur
 
 ## Contact Information 
 
-If you have any question or contributions, please email me at (chepceline25@gmail.com)
+If you have any question or contributions to this project, please email me at (chepceline25@gmail.com)
 
 
 ## License
