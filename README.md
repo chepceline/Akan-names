@@ -29,5 +29,8 @@ Correct data entered <br>
 *Expected Output* <br>
 Correct Akan name to match day of the week. Example Ama - Female born on a Saturday
 
+## Contact Information 
+
+If you have any question or contributions, please email me at (chepceline25@gmail.com)
 
 
