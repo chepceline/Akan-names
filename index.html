@@ -10,56 +10,61 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <img src="img/title.jpeg">
-            <br>
-            <h3>Akan Names</h3>
-            <div class="info">
-                <p>In most parts of Africa countries people are named after a season,time or day. This also applies to Ghana where a person is given a name according to the day of the week they were born.
-                    <br> Would you like to know your name if you were born in Ghana?
-                    <br> Enter your birthday and gender below to read your day name: <br>
-                </p>
-            </div>
-        </div>
-        <div class="class overlay">
-            <div class="container">
-                <h2>Enter your details here</h2>
-                <form name="myForm" class="form" onsubmit="validate();">
-                    <div class="form-group">
-                      <label for="number">Year of Birth:</label>
-                      <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+      <div class="header">
+          <img src="img/title.jpeg">
+          <br>
+          <h3>Akan Names</h3>
+          <div class="info">
+              <p>In most parts of Africa countries people are named after a season,time or day. This also applies to Ghana where a person is given a name according to the day of the week they were born.
+                  <br> Would you like to know your name if you were born in Ghana?
+                  <br> Enter your birthday and gender below to read your day name: <br>
+              </p>
+          </div>
+      </div>
+      <div class="class overlay">
+          <div class="container">
+              <h2>Enter your details here</h2>
+              <form name="myForm" class="form" onsubmit="validate();">
+                  <div class="form-group">
+                    <label for="number">Year of Birth:</label>
+                    <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+                  </div>
+                  <div class="form-group">
+                    <label for="month">Month of Birth:</label>
+                    <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+                  </div>
+                  <div class="form-group">
+                    <label for="date">Date of Birth:</label>
+                    <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+                  </div>
+                  <div class="form-group">
+                    <label for="month">Gender</label><br>
+                    <div class="form-check-inline">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                      </label>
                     </div>
-                    <div class="form-group">
-                      <label for="month">Month of Birth:</label>
-                      <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+                    <div class="form-check-inline">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                      </label>
                     </div>
-                    <div class="form-group">
-                      <label for="date">Date of Birth:</label>
-                      <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
-                    </div>
-                    <div class="form-group">
-                      <label for="month">Gender</label><br>
-                      <div class="form-check-inline">
-                        <label class="form-check-label">
-                          <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
-                        </label>
-                      </div>
-                      <div class="form-check-inline">
-                        <label class="form-check-label">
-                          <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
-                        </label>
-                      </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
-                    <br>
-                  </form>
-                  <p id="results"> </p>
-                </div>
-            </div>
-            
+                  </div>
+                  <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+                  <br>
+                </form>
+                <p id="results"> </p>
+              </div>
+          </div>
+          
+      
+          </div>
+      </div>
+
+
+
+    </div>
         
-            </div>
-        </div>
     
   <script src="script.js"></script>
     
