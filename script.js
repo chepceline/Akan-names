@@ -22,3 +22,12 @@ function validate() {
      document.myForm.day.focus() ;
      return false;
   }
+  else if(genders[0].checked==false && genders[1].checked==false ) {
+    alert("You must select male or female");
+    return false;
+}   
+else{
+  return true ;
+}
+
+}
