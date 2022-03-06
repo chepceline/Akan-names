@@ -6,15 +6,10 @@ header img {
     height: 40px;
 }
 body {
-    background: url(img/Ghana.jpg) ;
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    background-blend-mode: multiply;
-    /* width: 100%; */
-    font-family: cursive;
+    background:url(img/temple.jpg);
+    font-size: largeg;
     text-align: center;
-    color: black;
+    color: hsl(0, 4%, 9%);
 }
 
 .header h3 {
