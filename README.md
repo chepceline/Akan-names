@@ -1,5 +1,6 @@
 ## **Akan Names** by Damaris Chepchirchir
 The title of this project is Akan names or Akan names generator
+Here is a link to my git hub page https://chepceline.github.io/Akan-names/
 ## Description
 
 This project is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
